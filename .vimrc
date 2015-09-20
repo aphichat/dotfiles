@@ -67,3 +67,14 @@ set noswapfile
 " NERDtree opens when ctrl+n
 map <C-n> :NERDTreeToggle<CR>
 
+" Arrows keys are unacceptable
+map <Left> <Nop>
+map <Right> <Nop>
+map <Up> <Nop>
+map <Down> <Nop>
+
+imap <Left> <Nop>
+imap <Right> <Nop>
+imap <Up> <Nop>
+imap <Down> <Nop>
+
