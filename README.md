@@ -1,7 +1,11 @@
 # Aphichat's dotfiles
 
-How to install
+Install .vimrc file
 ```
 $ ln -s ~/dotfiles/.vimrc ~/.vimrc
+```
+Map ESC to ⏏
+```
+https://pqrs.org/osx/karabiner/seil.html.en
 ```
 
