@@ -4,9 +4,9 @@
 " Owner:            Aphichat Panjamanee 
 " Last change:      2015 Sep 19
 "
-" Addons wishlist (learn without addons first)
+" Addons dependencies 
 "
-" https://github.com/tpope/vim-surround
+" https://github.com/VundleVim/Vundle.vim
 " https://github.com/kien/ctrlp.vim
 "
 "
@@ -23,7 +23,6 @@ set backspace=indent,eol,start
 syntax on
 
 " Vundle
-" https://github.com/gmarik/vundle
 " See the :h vundle Vimdoc for more details.
 filetype off
 
@@ -67,3 +66,4 @@ set noswapfile
 
 " NERDtree opens when ctrl+n
 map <C-n> :NERDTreeToggle<CR>
+
