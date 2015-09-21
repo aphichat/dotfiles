@@ -1,13 +1,10 @@
-" A minimal vimrc for new vim users to start with.
-"
-" Original Author:  Bram Moolenaar <Bram@vim.org>
-" Owner:            Aphichat Panjamanee 
-" Last change:      2015 Sep 19
+" Author:  Aphichat Panjamanee <panjamanee@gmail.com>
 "
 " Addons dependencies 
 "
 " https://github.com/VundleVim/Vundle.vim
 " https://github.com/kien/ctrlp.vim
+" https://github.com/tpope/vim-fugitive
 "
 "
 " If you don't understand a setting in here, just type ':h setting'.
@@ -32,6 +29,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 
