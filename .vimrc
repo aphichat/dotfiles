@@ -46,6 +46,7 @@ au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 " Styling
 set fillchars+=vert:\ 
 highlight VertSplit ctermfg=255
+set laststatus=2
 
 " View relative line number
 set relativenumber
