@@ -1,5 +1,10 @@
 # Aphichat's dotfiles
 
+Install Monokai Terminal scheme
+```
+git clone git://github.com/stephenway/monokai.terminal.git
+```
+
 Install .vimrc file
 ```
 $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
