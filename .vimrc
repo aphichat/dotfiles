@@ -43,9 +43,13 @@ set autoindent
 " Wrapping code to 80 cols
 au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
+" Styling
+set fillchars+=vert:\ 
+highlight VertSplit ctermfg=255
+
 " View relative line number
-" set relativenumber
-set number
+set relativenumber
+" set number
 
 " Show column numbers
 set ruler
