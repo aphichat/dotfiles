@@ -66,9 +66,6 @@ set hlsearch
 " No swap files, use version control instead
 set noswapfile
 
-" NERDtree opens when ctrl+n
-map <C-n> :NERDTreeToggle<CR>
-
 " Arrows keys are unacceptable
 map <Left> <Nop>
 map <Right> <Nop>
@@ -79,4 +76,7 @@ imap <Left> <Nop>
 imap <Right> <Nop>
 imap <Up> <Nop>
 imap <Down> <Nop>
+
+" Leader map
+map <Leader>gs :!git status<cr>
 
