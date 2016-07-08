@@ -1,12 +1,5 @@
 " Author:  Aphichat Panjamanee <panjamanee@gmail.com>
 "
-" Addons dependencies 
-"
-" https://github.com/VundleVim/Vundle.vim
-" https://github.com/kien/ctrlp.vim
-" https://github.com/tpope/vim-fugitive
-"
-"
 " If you don't understand a setting in here, just type ':h setting'.
 
 " Use Vim settings, rather than Vi settings (much better!).
@@ -31,6 +24,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
@@ -45,6 +39,7 @@ au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 " Styling
 set fillchars+=vert:\ 
 highlight VertSplit ctermfg=255
+highlight SignColumn ctermbg=NONE
 set laststatus=2
 
 " View relative line number
