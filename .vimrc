@@ -77,6 +77,3 @@ imap <Right> <Nop>
 imap <Up> <Nop>
 imap <Down> <Nop>
 
-" Leader map
-map <Leader>gs :!git status<cr>
-
