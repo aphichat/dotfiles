@@ -36,6 +36,9 @@ set autoindent
 " Wrapping code to 80 cols
 au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
+" Map <leader> to ,
+let mapleader = ','
+
 " Styling
 set fillchars+=vert:\ 
 highlight VertSplit ctermfg=255
@@ -71,4 +74,7 @@ imap <Left> <Nop>
 imap <Right> <Nop>
 imap <Up> <Nop>
 imap <Down> <Nop>
+
+" Map controlP to leader P
+let g:ctrlp_map = '<leader>p'
 
