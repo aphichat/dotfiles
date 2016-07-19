@@ -78,3 +78,5 @@ imap <Down> <Nop>
 " Map controlP to leader P
 let g:ctrlp_map = '<leader>p'
 
+" Helpers
+map <Leader>gw :!git add . && git commit -m 'WIP' && git push<cr>
