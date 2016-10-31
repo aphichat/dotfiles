@@ -1,6 +1,7 @@
 [user]
 	name = Aphichat Panjamanee
 	email = panjamanee@gmail.com
-
 [core]
   excludesfile = ~/.gitignore
+[push]
+	default = simple
