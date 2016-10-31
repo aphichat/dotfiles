@@ -7,5 +7,6 @@ git clone git://github.com/stephenway/monokai.terminal.git
 
 Install
 ```
-$ sh setup.sh 
+$ git clone git@github.com:aphichat/dotfiles.git
+$ sh ~/dotfiles/setup.sh 
 ```
