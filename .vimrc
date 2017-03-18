@@ -61,6 +61,9 @@ set shiftwidth=2
 " Highlight search results
 set hlsearch
 
+" Disable search wrapping
+set nowrapscan
+
 " No swap files, use version control instead
 set noswapfile
 
