@@ -45,6 +45,11 @@ highlight VertSplit ctermfg=255
 highlight SignColumn ctermbg=NONE
 set laststatus=2
 
+colorscheme molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
+set background=dark
+
 " View relative line number
 set relativenumber
 " set number
@@ -80,6 +85,9 @@ imap <Down> <Nop>
 
 " Map controlP to leader P
 let g:ctrlp_map = '<leader>p'
+
+" also search in dotfiles
+let g:ctrlp_show_hidden = 0
 
 " Helpers
 map <Leader>gw :!git add . && git commit -m 'WIP' && git push<cr>
