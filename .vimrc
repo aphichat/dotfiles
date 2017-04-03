@@ -1,4 +1,4 @@
-" Author:  Aphichat Panjamanee <panjamanee@gmail.com>
+" Author: Aphichat Panjamanee <panjamanee@gmail.com>
 "
 " If you don't understand a setting in here, just type ':h setting'.
 
@@ -48,13 +48,12 @@ highlight SignColumn ctermbg=NONE
 set laststatus=2
 
 colorscheme molokai
-let g:molokai_original = 1
-let g:rehash256 = 1
+let g:molokai_original=1
+let g:rehash256=1
 set background=dark
 
 " View relative line number
 set relativenumber
-" set number
 
 " Show column numbers
 set ruler
@@ -86,10 +85,11 @@ imap <Up> <Nop>
 imap <Down> <Nop>
 
 " Map controlP to leader P
-let g:ctrlp_map = '<leader>p'
+let g:ctrlp_map='<leader>p'
 
 " also search in dotfiles
-let g:ctrlp_show_hidden = 0
+let g:ctrlp_show_hidden=0
 
 " Helpers
 map <Leader>gw :!git add . && git commit -m 'WIP' && git push<cr>
+
