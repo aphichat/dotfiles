@@ -21,7 +21,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
+" Launch vim and run :PluginInstall
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-vinegar'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
