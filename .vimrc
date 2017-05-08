@@ -94,3 +94,11 @@ let g:ctrlp_show_hidden=0
 " Helpers
 map <Leader>gw :!git add . && git commit -m 'WIP' && git push<cr>
 
+" Statusbar toggler
+hi StatusLine cterm=NONE ctermbg=149 ctermfg=black
+
+if version >= 700
+  au InsertEnter * hi StatusLine term=reverse ctermbg=198
+  au InsertLeave * hi StatusLine term=reverse ctermfg=black ctermbg=149
+endif
+
