@@ -24,6 +24,7 @@ call vundle#begin()
 " Launch vim and run :PluginInstall
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-vinegar'
+Plugin 'preservim/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
@@ -31,6 +32,10 @@ Plugin 'tpope/vim-surround'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
+
+" Startup
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
