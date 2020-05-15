@@ -107,3 +107,5 @@ if version >= 700
   au InsertLeave * hi StatusLine term=reverse ctermfg=black ctermbg=149
 endif
 
+" Plugins settings
+let NERDTreeShowHidden=1
