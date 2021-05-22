@@ -26,7 +26,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-vinegar'
 Plugin 'preservim/nerdtree'
 Plugin 'tpope/vim-fugitive'
-Plugin 'junegunn/fzf.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-surround'
 
@@ -89,6 +89,10 @@ imap <Left> <Nop>
 imap <Right> <Nop>
 imap <Up> <Nop>
 imap <Down> <Nop>
+
+" Map controlP to leader P
+let g:ctrlp_map='<leader>p'
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " also search in dotfiles
 let g:ctrlp_show_hidden=0
